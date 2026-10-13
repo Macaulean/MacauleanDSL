@@ -1,4 +1,39 @@
-# Macaulean
+# MacauleanDSL
+
+## Fork history and integrated pull requests
+
+MacauleanDSL is a public fork of [Macaulean/Macaulean](https://github.com/Macaulean/Macaulean),
+created in the Macaulean organization on October 13, 2026 to bring together the
+Macaulay2 DSL and its verification work in Lean.
+
+The fork started from upstream `main`. Its `main` branch was then fast-forwarded
+to the head of upstream PR #41, commit
+[`0e2231ba340d7cb2bd7748f6d54aa4032dc8b483`](https://github.com/Macaulean/MacauleanDSL/commit/0e2231ba340d7cb2bd7748f6d54aa4032dc8b483).
+That commit already contained the complete dependency stack below, so all eleven
+PR heads were incorporated with their original commit history, without separate
+merge commits. This integration did not merge or close the upstream PRs.
+
+| Upstream PR | Included work |
+| --- | --- |
+| [#30](https://github.com/Macaulean/Macaulean/pull/30) | Macaulay2 interpreter for integer and rational arithmetic |
+| [#31](https://github.com/Macaulean/Macaulean/pull/31) | Scoped M2 DSL with `open M2` and bare Macaulay2 inputs |
+| [#32](https://github.com/Macaulean/Macaulean/pull/32) | Branching, short-circuit Booleans, and blocks |
+| [#33](https://github.com/Macaulean/Macaulean/pull/33) | Immutable lists, sequences, ranges, and indexing |
+| [#34](https://github.com/Macaulean/Macaulean/pull/34) | Functions, closures, and lexical binding |
+| [#36](https://github.com/Macaulean/Macaulean/pull/36) | Rational polynomial rings and sparse polynomial operations |
+| [#37](https://github.com/Macaulean/Macaulean/pull/37) | Buchberger's algorithm and polynomial reduction in the DSL |
+| [#38](https://github.com/Macaulean/Macaulean/pull/38) | Semantic indexing, mathematical views, and intent approval |
+| [#39](https://github.com/Macaulean/Macaulean/pull/39) | Stage 2 pilot: agent proof jobs with isolated kernel replay |
+| [#40](https://github.com/Macaulean/Macaulean/pull/40) | Proofs of polynomial arithmetic semantics |
+| [#41](https://github.com/Macaulean/Macaulean/pull/41) | Coefficientwise arithmetic contracts |
+
+The obsolete combined experiment [#35](https://github.com/Macaulean/Macaulean/pull/35)
+was deliberately omitted in favor of its replacements, #36 and #37. Draft PRs
+#31 and #39 were included as part of the current stack; inclusion here does not
+imply completion of their broader roadmaps or a proof of full Gröbner-basis
+correctness.
+
+## Upstream project
 
 The project [Bridging proof and computation](https://www.renaissancephilanthropy.org/bridging-proof-and-computation-a-verified-leanmacaulay2-interface) integrates the theorem-proving capabilities of Lean with the computational power of Macaulay2.
 
