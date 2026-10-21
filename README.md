@@ -33,6 +33,10 @@ was deliberately omitted in favor of its replacements, #36 and #37. Draft PRs
 imply completion of their broader roadmaps or a proof of full Gröbner-basis
 correctness.
 
+For the univariate GCD implementation, proved input-derived execution budget,
+total correctness, and reusable worksheet certificates, see
+[GCD verification](docs/m2-gcd.md).
+
 ## Upstream project
 
 The project [Bridging proof and computation](https://www.renaissancephilanthropy.org/bridging-proof-and-computation-a-verified-leanmacaulay2-interface) integrates the theorem-proving capabilities of Lean with the computational power of Macaulay2.
