@@ -7,10 +7,6 @@ import MacauleanTest.TestGB5Pts
 import MacauleanTest.Interpreter
 import MacauleanTest.InterpreterM2
 import MacauleanTest.InterpreterDSL
-import MacauleanTest.DefinitionExposure
-import MacauleanTest.DefinitionExposureImport
-import MacauleanTest.DefinitionExposureLarge
-import MacauleanTest.DefinitionExposureVerification
 import MacauleanTest.InterpreterDSLImport
 import MacauleanTest.InterpreterDSLPrinter
 import MacauleanTest.InterpreterBranching
