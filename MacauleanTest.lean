@@ -43,4 +43,5 @@ import MacauleanTest.VerificationImport
 import MacauleanTest.VerificationWidget
 import MacauleanTest.VerificationGraph
 import MacauleanTest.VerificationNatContracts
+import MacauleanTest.VerificationHandles
 import MacauleanTest.ProofJobKernel
